@@ -1,9 +1,6 @@
-//find some of nubers between 1-10
-function getRandomNumbers(count) {
-    const numbers = [];
-    for (let i = 0; i < count; i++) {
-        numbers.push(Math.floor(Math.random() * 10) + 1);
-    }
-    return numbers;
+//find sum of numbers between 1-10
+let sum = 0;
+for (let i = 1; i <= 10; i++) {
+    sum += i;
 }
-console.log(getRandomNumbers(5));
+console.log(sum);
